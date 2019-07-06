@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <main id="contenedor">
+      <header>
+        <figure id="perro">
+          <img name="slider" src="img/fondo11.jpg">
+        </figure>
+        <div id="one">
+          <div id="dos">
+            <figure id="logo">
+              <img src="img/logo2.png" alt="">
+            </figure>
+          </div>
+          <div id="tres">
+            <h1>Tu mejor compañero</h1>
+          </div>
+          <div id="cuatro">
+            <nav id="navegacion">
+              <ul class="menu">
+                <li ><a href="#">MENU</a>
+                  <ul class="submenu">
+                    <li><a href="">inicio</a></li>
+                    <li><a href="./nosotros.html">nosotros</a></li>
+                    <li><a href="./centros.html"> centros </a></li>
+                    <li><a href="./galeria.html">galeria</a></li>
+                    <li><a href="./contactos.html">contactos</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <footer>
+        <div class="logo2">
+          <img src="img/logo5.png" alt="">
+        </div>
+      </footer>
+    </main>
+    <script>
+     window.addEventListener('load', function () {
+       console.log('el contenido se ha cargado!');
+
+       var imagenes = [];
+
+       imagenes[0] = 'img/fondo8.jpg';
+       imagenes[1] = 'img/dog2.jpg';
+       imagenes[2] = 'img/fondo10.jpg';
+       imagenes[3] = 'img/fondo7.jpg';
+       imagenes[4] = 'img/fondo9.jpg';
+
+       var indiceImagenes = 0;
+       tiempo = 3000;
+
+       function cambiarImagenes() {
+
+         document.slider.src = imagenes[indiceImagenes];
+
+         if (indiceImagenes < 4) {
+           indiceImagenes++;
+         } else {
+           indiceImagenes = 0;
+         }
+
+     }
+
+     setInterval(cambiarImagenes, tiempo);
+
+    });
+    </script>
+  </body>
+</html>

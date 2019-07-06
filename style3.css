@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contenedor{
+    width: 100%;
+    height: auto;
+    /*background: pink;*/
+    font-size: contain;
+  }
+
+  header{
+    width: 100%;
+    height: 85%;
+  }
+
+#perro{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 50;
+}
+
+#perro > img{
+    width: 100%;
+    max-height: 200px;
+    
+}
+
+#one{
+    /*background: green;*/
+    width: 90%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    z-index: 100;
+    justify-content: space-between;
+  }
+
+  #dos{
+    width: 25%;
+    height: 100%;
+  /*  background: blue;*/
+    z-index: 100;
+  }
+
+  #logo{
+    height: 200px;
+    width: 180px;
+  /*  background: skyblue;*/
+  }
+
+  #logo > img{
+    width: 150px;
+  }
+
+
+  #tres{
+    top: 15px;
+    position: relative;
+   /* width: 75%;*/
+    height: 100%;
+    /*background: blue;*/
+    z-index: 100;
+  }
+
+  #navegacion ul{
+      list-style: none;
+      padding: 0;
+  }
+
+   li a{
+      color: rgba(245, 240, 240, 0.904);
+     /* display: block;*/
+      padding: 7px 20px;
+      text-decoration: none;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: all 0.5s; 
+  }
+
+  #navegacion > ul{
+    /*background: rgba(39, 51, 27, 0.007);*/
+      display: table;
+      margin: auto;
+  }
+
+  #navegacion > ul > li{
+      display: flex;
+      display: inline-block;
+      line-height: 3rem;
+      padding: 0.5rem;
+  }
+
+ li a:hover {
+    background: rgba(251, 252, 249, 0.747);
+    color: rgb(22, 21, 21);
+}
+
+section{
+  position: relative;
+}
+
+.nosotros_padre{
+  text-align: center;
+  width: 100%;
+  height: 100px; 
+ /* background: green;*/
+}
+
+.nosotros{
+  padding-top: 60px;
+  /*background: red;*/
+  font-size: 30px;
+}
+
+.texto{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.box{
+  width: 60%;
+  height: auto;
+  /*background: green;*/
+}
+
+.dog{
+  width: 40%;
+}
+
+.dog > img{
+  width: 100%;
+  height: 500px;
+  margin-top: 60px;
+   
+}
+
+h1, p {
+  padding:1rem 20px 0px 0px;
+}
+
+.logo3{
+    
+    width: 90%;
+    height: 280px;
+    display: flex;
+    /*background: skyblue;*/
+    z-index: 100;
+    margin: auto;
+    position: relative;
+}
+
+ .servicios-pet{
+  text-align: center;
+  padding: 35px;
+  /*background: red;*/
+  font-size: 30px;
+}
+
+.servicios{
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  /*border: 1px red solid;*/
+}
+
+.servicios > img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*border: 5px solid rgb(61, 110, 61);*/
+}
+
+figcaption{
+  text-align: center;
+  background-color: rgb(26, 26, 26);
+  margin: 5px;
+  padding:8px 0 8px; 
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.testimonios{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: rgba(61, 218, 61, 0.555);
+  
+  z-index: 100;  
+}
+
+.test-fondo{
+  width: 100%;
+  position: absolute;
+  /*display: none;*/
+  z-index: 1;
+}
+
+ .test-fondo > img{
+  width: 100%;
+  height: 600px;
+}
+
+.test-cont{
+  /*background: blue;*/
+  width: 100%;
+  height: 400px;
+}
+
+.test-box{
+  width: 100%;
+  height: 600px;
+  background: rgba(5, 5, 5, 0.308);
+  margin: auto;
+  z-index: 100;
+  position: relative;
+
+  display: flex;
+  /*flex-direction:*/
+  flex-wrap: wrap;
+  
+  /*justify-content: center;*/
+  align-content: center;
+  
+}
+
+.h1{
+  width: 100%;
+  height: 100px;
+ /* background: red;*/
+  z-index: 200;
+  position: relative;
+}
+
+.h1 > h1{
+  text-align: center;
+  color: aliceblue;
+  /*display: none;*/ 
+}
+
+.test{
+  display: flex;
+  width: 90%;
+  height: auto;
+ /* background: red;*/
+  margin: auto;
+
+}
+
+.test-1{
+  width: 33.33%;
+  height: auto;
+  z-index: 100;
+  text-align: center;
+  /*background-color: blueviolet;*/
+}
+
+.test-1 > p{
+  color: aliceblue;
+}
+
+.test-1 > figcaption{
+  background: 0;
+}
+
+.test-1 > img{
+  height: 200 px;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.box-change{
+  width: 100%;
+ /* background: pink;*/
+  width: 100%;
+  height: 600px;
+  
+  margin: auto;
+  z-index: 100;
+  position: relative;
+
+  display: flex;
+  /*flex-direction:*/
+  flex-wrap: wrap;
+  
+  /*justify-content: center;*/
+  align-content: center;
+}
+
+.text-entre{
+  width: 100%;
+  width: 100%;
+  height: 100px;
+  color: black;
+  margin: auto;; 
+}
+
+.text-entre > h1{
+  text-align: center;
+}
+
+.entrenadores{
+  width: 90%;
+ /* background: blueviolet;*/
+  display: flex;
+  margin: auto;
+}
+
+.entre1{
+  width: 25%;
+  text-align: center;
+}
+
+.entre1 > img{
+    max-width: 250px;
+    height: 340px;
+}
+
+footer{
+  background:rgb(12, 12, 12);
+  width: 100%;
+  height: 400px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.fcont{
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  /*background: green;*/
+}
+
+.cajainf{
+  width: 23.3%;
+  height: auto;
+}
+
+.finf{
+  width: 40%;
+  height: auto;
+}
+
+.cajainf > h1, .cajainf > p, .cajainf h3 {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.cajainf > h1{
+  padding: 20px;
+}
+
+.finf > h1, .finf > p, .finf > h3{
+  color: aliceblue;
+  padding: 10px;
+}
+
+.finf > h1{
+  padding: 20px;
+}
+
+.social{
+  width: 10%;
+  float: left;
+  position: fixed;
+  left: 0;
+  margin-top: 50px;
+  z-index: 200;
+}
+
+.social ul{
+  list-style: none;
+}
+
+.social ul li a{
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all 500ms ease;
+  border-radius: 0;
+}
+
+.social ul li .icon-facebook {background: #3b5998;}
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-google {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-email {background: #666666;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+    border-radius: 0px 5px 5px 0;
+}
